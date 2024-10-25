@@ -7,46 +7,6 @@ export default function WorkExperience() {
 
     const theme = useTheme();
 
-    const timelineItems = [
-        {
-            company: "OpenHub",
-            role: "Fullstack Developer",
-            location: "Remote",
-            startDate: "Jun 2023",
-            endDate: "Aug 2023",
-            description: [
-                "Led the implementation of a digital signature system",
-                "Developed frontend components with TypeScript, React, and Material-UI",
-                "Streamlined document management using SharePoint, and Power Automate",
-            ],
-        },
-        {
-            company: "Kapital Telekom",
-            role: "Fullstack Developer",
-            location: "",
-            startDate: "Jan 2024",
-            endDate: "Aug 2024",
-            description: [
-                "Created a responsive elevator quotation platform using PHP/Laravel and JavaScript",
-                "Integrated cloud-based solutions and managed MySQL databases",
-                "Designed and implemented scalable systems for optimal performance",
-            ],
-        },
-        {
-            company: "Ensolvers",
-            role: "Fullstack Developer",
-            location: "Remote",
-            startDate: "Aug 2024",
-            endDate: "Sep 2024",
-            description: [
-                "Developed a comprehensive hiring platform using Spring Boot and React",
-                "Implemented core backend functionalities and intuitive frontend experiences",
-                "Enhanced automation and streamlined workflows across the platform",
-            ],
-        },
-    ];
-
-
     return (
         <Box
             sx={{
@@ -77,9 +37,7 @@ export default function WorkExperience() {
                 Jobs that Shaped Me
                 </span>
             </Typography>
-            <CustomTimeline
-                items={timelineItems}
-            />
+            <CustomTimeline />
         </Box>
     );
 }

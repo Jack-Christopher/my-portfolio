@@ -25,10 +25,6 @@ interface TimelineItem {
     description: string[];
 }
 
-interface CustomTimeline {
-    items: TimelineItem[];
-}
-
 export default function CustomTimeline() {
 
     const theme = useTheme();
