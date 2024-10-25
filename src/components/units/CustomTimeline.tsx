@@ -29,7 +29,7 @@ interface CustomTimeline {
     items: TimelineItem[];
 }
 
-export default function CustomTimeline(props: CustomTimeline) {
+export default function CustomTimeline() {
 
     const theme = useTheme();
     return (
