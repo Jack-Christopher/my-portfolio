@@ -97,7 +97,6 @@ let theme = createTheme({
             xl: 1920,
         },
     },
-    shadows: Array(25).fill(''),
 });
 
 // Extend the theme by adding custom overrides
